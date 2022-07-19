@@ -6,7 +6,6 @@ metadata:
   annotations:
     service.beta.kubernetes.io/azure-load-balancer-internal: "true"
   name: hello-world
-  namespace: hello-world
 spec:
   type: LoadBalancer
   ports:
