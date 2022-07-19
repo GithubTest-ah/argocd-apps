@@ -9,7 +9,6 @@ metadata:
   namespace: hello-world
 spec:
   type: LoadBalancer
-  loadBalancerIP: 10.235.200.10
   ports:
     - port: 80
       targetPort: 80
